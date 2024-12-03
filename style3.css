@@ -2,7 +2,7 @@ nav {
     background-color: blue;
 }
 
-ul {
+nav {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -10,14 +10,46 @@ ul {
     margin: 0px;
     padding: 0px;
 
-
 }
 
 
-ul li {
+a {
     margin: 10px;
+    text-decoration: none;
     color: aliceblue;
+    font-family: Arial, sans-serif;
+    cursor: pointer;
+
 }
+
+a {
+    display: inline-block;
+    position: relative; /* Nécessaire pour l'animation */
+    
+    font-size: 20px; /* Taille du texte */
+    font-weight: bold; /* Texte en gras */
+    transition: color 0.9s ease; /* Transition pour la couleur */
+}
+a:hover {
+    color: #ff0000; /* Couleur légèrement plus foncée */
+}
+a::after {
+    content: ''; /* Nécessaire pour ::after */
+    position: absolute;
+    left: 0;
+    bottom: -5px; /* Place la ligne sous le texte */
+    width: 0; /* Ligne cachée au départ */
+    height: 2px; /* Épaisseur de la ligne */
+    background-color: #007BFF;
+    transition: width 0.3s ease; /* Animation de la largeur */
+}
+a:hover::after{
+    width: 100%; /* Ligne s'étend sur toute la largeur du lien */
+}
+
+
+
+
 
 
 
