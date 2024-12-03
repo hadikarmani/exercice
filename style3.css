@@ -1,0 +1,176 @@
+nav {
+    background-color: blue;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+
+
+}
+
+
+ul li {
+    margin: 10px;
+    color: aliceblue;
+}
+
+
+
+h {
+    color: rgb(0, 0, 0);
+    text-align: center;
+
+
+    font-family: Arial, Helvetica, sans-serif;
+
+    font-size: 60px;
+    font-weight: bolder;
+    font-style: italic;
+    margin-top: 10px;
+
+    padding: 5px;
+}
+
+h1 {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+
+    font-size: 30px;
+    font-weight: bolder;
+    font-style: italic;
+    margin-top: 10px;
+
+    padding: 5px;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.Service12 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+
+.Service1 {
+    width: 300px;
+    padding: 20px;
+    border: 2px solid #007BFF;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    font-family: Arial, sans-serif;
+    margin-right: 20px;
+    cursor: pointer;
+
+
+}
+
+
+.Service2 {
+    width: 300px;
+    padding: 20px;
+    border: 2px solid #007BFF;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    font-family: Arial, sans-serif;
+    margin-left: 20px;
+    cursor: pointer;
+
+}
+
+
+
+.service3 {
+    display: flex;
+    justify-content: center;
+
+    .button5:hover {
+        color: rgb(255, 255, 255);
+        background-color: rgb(3, 205, 255);
+    }
+
+}
+
+
+
+
+.s3 {
+    width: 300px;
+    padding: 20px;
+    border: 2px solid #007BFF;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    font-family: Arial, sans-serif;
+    margin-top: 20px;
+    cursor: pointer;
+
+}
+
+
+.Service1:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgb(3, 205, 255);
+    transform: scale(1.1);
+    transition: 0.7s ease;
+
+}
+
+.Service2:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgb(3, 205, 255);
+    transform: scale(1.1);
+    transition: 0.7s ease;
+}
+
+.s3:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgb(3, 205, 255);
+    transform: scale(1.1);
+    transition: 0.7s ease;
+}
+
+.button5 {
+    font-size: 20px;
+    color: aliceblue;
+    background-color: blue;
+    align-self: auto;
+    border-radius: 30px;
+}
+
+
+.button5:hover {
+    background-color: #0056b3;
+    transform: scale(1.1);
+    transition: 0.7s ease;
+}
+
+
+
+
+.Services3 {
+    display: flex;
+    justify-content: center;
+    margin-top: 3px;
+
+
+
+}
